@@ -15,14 +15,14 @@ Since standard TCAD lacks suitable models, we developed custom **PMI-based mobil
 
 - **Poole–Frenkel mobility model** (baseline, adapted from organic semiconductors).  
 - **Wollongong PF variant** (drift-based, modified for stability).  
-- **Morozzi–Polzoni model** (best agreement with experimental data).  
+- **Morozzi-Polzoni model** (best agreement with experimental data).  
 
 Additional: **SRH DopingDependence lifetime model**, tuned for a-Si:H.
 
 ### Results
 
-- Best reproduction of experimental I-V curves using **Morozzi–Polzoni + DopingDependence**.  
-- **3D transient simulations** with Minimum Ionizing Particles show near-ideal **Charge Collection Efficiency** (i.e., $\text{CCE} \approx 100\%$).  
+- Best reproduction of experimental I-V curves using **Morozzi-Polzoni + DopingDependence**.  
+- **3D transient simulations** with Minimum Ionizing Particles show near-ideal **Charge Collection Efficiency** (i.e., CCE $\approx$ 100%).  
 - Validated for **detector design studies** in a-Si:H.
 
 All PMI models are collected in the `pmi` folder, while the final implementation that provides the best agreement with experimental data (Morozzi-Polzoni model) is provided separately in `pmi_PF_e_v2_1.C`.
