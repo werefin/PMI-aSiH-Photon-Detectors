@@ -25,4 +25,4 @@ Additional: **SRH DopingDependence lifetime model**, tuned for a-Si:H.
 - **3D transient simulations** with Minimum Ionizing Particles show near-ideal **Charge Collection Efficiency** (i.e., CCE ~100%).
 - Validated for **detector design studies** in a-Si:H.
 
-All PMI models are collected in the `pmi` folder, while the final implementation that provides the best agreement with experimental data (Morozzi-Polzoni model) is provided separately in `pmi_PF_e_v2_1.C`.
+All PMI models are collected in the `pmi` folder, while the final implementation that provides the best agreement with experimental data (Morozzi-Polzoni model) is provided separately in `pmi_PF_e_v2_t1.C`.
